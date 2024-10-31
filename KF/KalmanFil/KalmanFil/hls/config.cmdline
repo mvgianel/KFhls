@@ -1,0 +1,3 @@
+relativeroot=/home/mgianell/KF/KalmanFil
+original_argv=--mode hls --csim --config /home/mgianell/KF/KalmanFil/hls_config.cfg --work_dir KalmanFil 
+

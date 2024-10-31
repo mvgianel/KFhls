@@ -1,0 +1,61 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /home/mgianell/KF/KalmanFil/KalmanFil/KalmanFil.hlsrun_csim_summary, at Thu Oct 31 12:39:42 2024
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir /home/mgianell/KF/KalmanFil/KalmanFil -config /home/mgianell/KF/KalmanFil/hls_config.cfg -cmdlineconfig /home/mgianell/KF/KalmanFil/KalmanFil/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'mgianell' on host 'fpga-tools' (Linux_x86_64 version 5.4.0-198-generic) on Thu Oct 31 12:39:44 UTC 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/mgianell/KF/KalmanFil'
+INFO: [HLS 200-1909] Reading HLS ini file /home/mgianell/KF/KalmanFil/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /home/mgianell/KF/KalmanFil/KalmanFil/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /home/mgianell/KF/KalmanFil/KalmanFil 
+INFO: [HLS 200-1510] Running: open_project /home/mgianell/KF/KalmanFil/KalmanFil -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /home/mgianell/KF/KalmanFil/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /home/mgianell/KF/KalmanFil/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/mgianell/KF/KalmanFil/kalman_filter.cpp' at /home/mgianell/KF/KalmanFil/hls_config.cfg(2)
+INFO: [HLS 200-10] Adding design file '/home/mgianell/KF/KalmanFil/kalman_filter.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/mgianell/KF/KalmanFil/kalman_filter.h' at /home/mgianell/KF/KalmanFil/hls_config.cfg(3)
+INFO: [HLS 200-10] Adding design file '/home/mgianell/KF/KalmanFil/kalman_filter.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=kf_test.cpp' at /home/mgianell/KF/KalmanFil/hls_config.cfg(4)
+INFO: [HLS 200-10] Adding test bench file '/home/mgianell/KF/KalmanFil/kf_test.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=pointcloud_data.txt' at /home/mgianell/KF/KalmanFil/hls_config.cfg(5)
+INFO: [HLS 200-10] Adding test bench file '/home/mgianell/KF/KalmanFil/pointcloud_data.txt' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=process_pointcloud' at /home/mgianell/KF/KalmanFil/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'clock=250MHz' at /home/mgianell/KF/KalmanFil/hls_config.cfg(6)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
+INFO: [HLS 200-1510] Running: apply_ini /home/mgianell/KF/KalmanFil/KalmanFil/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /home/mgianell/KF/KalmanFil/KalmanFil/hls/config.cmdline
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../kf_test.cpp in debug mode
+   Compiling ../../../../kalman_filter.cpp in debug mode
+   Generating csim.exe
+Updated map after processing point cloud:
+Cell (1, 2): Height = 1.67536, Variance = 0.172369
+Cell (2, 3): Height = 1.68253, Variance = 0.178837
+Cell (3, 4): Height = 1.43247, Variance = 0.317872
+Cell (11, 12): Height = 1.73272, Variance = 0.313593
+Cell (12, 12): Height = 1.29361, Variance = 0.486664
+Cell (12, 13): Height = 1.28565, Variance = 0.499747
+Cell (12, 14): Height = 0.682594, Variance = 0.317406
+Test PASSED: Map updated correctly within tolerance.
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 10
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 12.48 seconds. CPU system time: 1.18 seconds. Elapsed time: 14 seconds; current allocated memory: 0.719 MB.
+INFO: [HLS 200-1510] Running: close_project 
+INFO: [HLS 200-112] Total CPU user time: 13.39 seconds. Total CPU system time: 1.36 seconds. Total elapsed time: 14.87 seconds; peak allocated memory: 119.293 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Thu Oct 31 12:39:58 2024...
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 19s

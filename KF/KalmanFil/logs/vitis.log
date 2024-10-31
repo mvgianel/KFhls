@@ -1,0 +1,25 @@
+04:00:04 INFO  : updated workspace path: /home/mgianell/KF/KalmanFil
+04:00:04 INFO  : created .gitignore file for the project /home/mgianell/KF/KalmanFil
+04:00:04 INFO  : updated workspace path: /home/mgianell/KF/KalmanFil
+04:00:04 INFO  : created .gitignore file for the project /home/mgianell/KF/KalmanFil
+04:00:04 INFO  : Successfully created repository data at /tmp/rigel_lopper_mgianell4874043876200304151
+04:00:04 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell10562044058333075744 -r /tmp/rigel_lopper_mgianell4874043876200304151/.repo.yaml && deactivate
+04:00:05 INFO  : Embedded Template List generated successfully
+04:00:05 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//repo.py -st   /tools/Xilinx/Vitis/2023.2/data/embeddedsw && deactivate
+04:00:06 INFO  : Successfully created repository data at /home/mgianell/KF/KalmanFil
+04:00:06 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell15994675212413072230 -r /home/mgianell/KF/KalmanFil/.repo.yaml && deactivate
+04:00:06 INFO  : Embedded Template List generated successfully
+04:00:06 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell9563979629235963936 -r /home/mgianell/KF/KalmanFil/.repo.yaml && deactivate
+04:00:06 INFO  : Embedded Template List generated successfully
+19:46:18 INFO  : updated workspace path: /home/mgianell/KF/KalmanFil
+19:46:18 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell11332484615233824608 -r /home/mgianell/KF/KalmanFil/.repo.yaml && deactivate
+19:46:19 INFO  : Embedded Template List generated successfully
+19:46:47 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell8849466650719022975 -r /home/mgianell/KF/KalmanFil/.repo.yaml && deactivate
+19:46:47 ERROR : Failed to set workspace '/home/mgianell/KF'. The path is already in use by another Vitis server
+19:46:47 ERROR : Failed to set workspace '/home/mgianell/KF'. The path is already in use by another Vitis server
+19:46:47 INFO  : Embedded Template List generated successfully
+19:46:59 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell1190840439099523052 -r /home/mgianell/KF/KalmanFil/.repo.yaml && deactivate
+19:47:00 ERROR : Failed to set workspace '/home/mgianell/KF/KalmanFil'. The path is already in use by another Vitis server
+19:47:00 ERROR : Failed to set workspace '/home/mgianell/KF/KalmanFil'. The path is already in use by another Vitis server
+19:47:00 INFO  : Embedded Template List generated successfully
+19:47:17 INFO  : bash, -c, source /tools/Xilinx/Vitis/2023.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2023.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_mgianell9907124892158435092 -r /home/mgianell/KF/KalmanFil/.repo.yaml && deactivate
