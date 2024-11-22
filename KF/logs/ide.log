@@ -1,3 +1,0 @@
-2024-10-31 11:47:21 [error] : [Config Editor] Error: 3 INVALID_ARGUMENT: Could not find platform at  
-2024-10-31 12:29:07 [error] : [Debug Manager] Failed to start the debug session. Unable to find launch configuration with name 'KalmanFil'. 
-2024-10-31 12:39:52 [error] : [Debug Manager] Failed to start the debug session. Unable to find launch configuration with name 'KalmanFil'. 
