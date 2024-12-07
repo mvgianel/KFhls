@@ -60,7 +60,7 @@ These files are used to test the implementation correctness
 + updated_map1.txt
 #### Report
 Report draft
-+ preliminaty_report_gianello.pdf 
++ draft_report_gianello.pdf 
 
 ## Running
 To run the code run 
