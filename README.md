@@ -33,15 +33,18 @@ The app_component generates the application_component excecutable. Can choose st
 Either:
 + host.cpp
 + host.h
+
 Or:
 + host_stream.cpp
 + host_strm.h
 #### hls_component
 This can be used to build the kernel. The testbench file uses a map file and a pointcloud file to test the created map against the golden_otput.txt file, which has the expected heights of the updated cells
+
 For m_axi kernel:
 + kalman_filter.cpp
 + kalman_filert.h
 + kf_test.cpp              (testbench)
+  
 For streaming kernel:
 + kalman_filter_strm.cpp
 + kalman_filert_strm.h
@@ -52,6 +55,7 @@ Uses the app and hls components to generate the .xclbin files for different purp
 + kalman_filter_hw.xclbin  (hardware target)
 + kalman_filter_hwe.xclbin (hardware emulation target)
 + kalman_filter_swe.xclbin (software emulation target)
+  
 These can be found in the sw folder, in a zip file. They are only available for non-streaming implementation.
 #### Data
 These files are used to test the implementation correctness
